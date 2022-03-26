@@ -17,12 +17,8 @@ Hello World
 - - -
 
 ### 예제 출력 1
-||\\_/||
-||q p|   /}|
-|( 0 )"""\\|
-||"^"`    ||
-|||_/=\\\\__||
-|:---|
+
+<img src="https://user-images.githubusercontent.com/90941665/160219565-219b6256-dbb1-409b-bd82-ab52ab30fc99.png">
 
 - - -
 

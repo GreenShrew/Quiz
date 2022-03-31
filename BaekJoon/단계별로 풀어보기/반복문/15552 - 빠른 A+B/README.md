@@ -61,3 +61,10 @@ Python을 사용하고 있다면, input 대신 sys.stdin.readline을 사용할 �
 * Java 8 (OpenJDK): 1.5 초
 
 - - -
+
+# MJ's 메모
+
+지금까지 사용해왔던 Scanner와 System.out.println을 사용하면 제한 시간에서 크게 벗어나게 된다!<br>
+BufferedReader, BufferedWriter, StringTokenizer 를 학습하고, 이를 이용하여 문제를 풀어보자.
+
+- - -

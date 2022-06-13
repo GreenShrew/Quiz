@@ -10,7 +10,7 @@
     <tr>
         <td>
             ***</br>
-            * *</br>
+            *&nbsp;*</br>
             ***
         </td>
     </tr>
@@ -41,31 +41,31 @@ N이 3보다 클 경우, 크기 N의 패턴은 공백으로 채워진 가운데�
     <tr>
         <td>
 ***************************</br>
-* ** ** ** ** ** ** ** ** *</br>
+*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
 ***************************</br>
-***   ******   ******   ***</br>
-* *   * ** *   * ** *   * *</br>
-***   ******   ******   ***</br>
+***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
+*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*</br>
+***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
 ***************************</br>
-* ** ** ** ** ** ** ** ** *</br>
+*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
 ***************************</br>
-*********         *********</br>
-* ** ** *         * ** ** *</br>
-*********         *********</br>
-***   ***         ***   ***</br>
-* *   * *         * *   * *</br>
-***   ***         ***   ***</br>
-*********         *********</br>
-* ** ** *         * ** ** *</br>
-*********         *********</br>
+*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
+*&nbsp;**&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;**&nbsp;*</br>
+*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
+***&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;***</br>
+*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*</br>
+***&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;***</br>
+*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
+*&nbsp;**&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;**&nbsp;*</br>
+*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
 ***************************</br>
-* ** ** ** ** ** ** ** ** *</br>
+*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
 ***************************</br>
-***   ******   ******   ***</br>
-* *   * ** *   * ** *   * *</br>
-***   ******   ******   ***</br>
+***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
+*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*</br>
+***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
 ***************************</br>
-* ** ** ** ** ** ** ** ** *</br>
+*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
 ***************************
         </td>
     </tr>

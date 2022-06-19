@@ -20,16 +20,16 @@ QR Code "alphanumeric" 문자는 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\$%*+-./: �
 
 ### 예제 입력 1
 |2|
+|:---|
 |3 ABC|
 |5 /HTP|
-|:---|
 
 - - -
 
 ### 예제 출력 1
 |AAABBBCCC|
-|/////HHHHHTTTTTPPPPP|
 |:---|
+|/////HHHHHTTTTTPPPPP|
 
 - - -
 

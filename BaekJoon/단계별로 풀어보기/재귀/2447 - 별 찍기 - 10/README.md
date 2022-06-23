@@ -6,15 +6,7 @@
 
 크기 3의 패턴은 가운데에 공백이 있고, 가운데를 제외한 모든 칸에 별이 하나씩 있는 패턴이다.
 
-<table>
-    <tr>
-        <td>
-            ***</br>
-            *&nbsp;*</br>
-            ***
-        </td>
-    </tr>
-</table>
+![2447 - 1](https://user-images.githubusercontent.com/90941665/175207577-354f3368-598e-4b6f-86a8-236b32d3ba4e.png)
 
 N이 3보다 클 경우, 크기 N의 패턴은 공백으로 채워진 가운데의 (N/3)×(N/3) 정사각형을 크기 N/3의 패턴으로 둘러싼 형태이다. 예를 들어 크기 27의 패턴은 예제 출력 1과 같다.
 
@@ -37,40 +29,7 @@ N이 3보다 클 경우, 크기 N의 패턴은 공백으로 채워진 가운데�
 - - -
 
 ### 예제 출력 1
-<table>
-    <tr>
-        <td>
-***************************</br>
-*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
-***************************</br>
-***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
-*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*</br>
-***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
-***************************</br>
-*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
-***************************</br>
-*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
-*&nbsp;**&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;**&nbsp;*</br>
-*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
-***&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;***</br>
-*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*</br>
-***&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***&nbsp;&nbsp;&nbsp;***</br>
-*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
-*&nbsp;**&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;**&nbsp;*</br>
-*********&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*********</br>
-***************************</br>
-*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
-***************************</br>
-***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
-*&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;**&nbsp;*&nbsp;&nbsp;&nbsp;*&nbsp;*</br>
-***&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;******&nbsp;&nbsp;&nbsp;***</br>
-***************************</br>
-*&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;**&nbsp;*</br>
-***************************
-        </td>
-    </tr>
-</table>
-
+![2447 - 2](https://user-images.githubusercontent.com/90941665/175207620-67cfd516-4c4f-408a-862e-a9237ff23381.png)
 
 - - -
 

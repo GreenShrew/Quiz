@@ -11,6 +11,8 @@
 
 아래 그림은 원판이 5개인 경우의 예시이다.
 
+![11729](https://user-images.githubusercontent.com/90941665/175750728-93e24f9f-bc7a-4ce8-8636-82a12c6b999b.png)
+
 - - -
 
 ### 입력

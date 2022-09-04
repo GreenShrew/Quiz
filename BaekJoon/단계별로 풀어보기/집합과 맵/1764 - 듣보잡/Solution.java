@@ -24,4 +24,3 @@ public class back1764 {
         }
     }
 }
-출처: https://binsblog.tistory.com/entry/백준-1764-듣보잡-Java [빈v:티스토리]

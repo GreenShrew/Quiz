@@ -2,35 +2,45 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
+ 
 public class Main {
-	public static void main(String[] args) throws NumberFormatException, IOException {
+ 
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(br.readLine());
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int count = 0;
+        
+		StringTokenizer st = new StringTokenizer(br.readLine()," ");
+        
+		int[] coord_1 = { Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()) };
+		st = new StringTokenizer(br.readLine()," ");
+		int[] coord_2 = { Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()) };
+		st = new StringTokenizer(br.readLine()," ");
+		int[] coord_3 = { Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()) };
+ 
 		
-		
-		for(int i=0; i<N; i++) {
-			int num = Integer.parseInt(st.nextToken());
-			boolean b = true;
-			
-			if(num == 1) {
-				continue;
-			}
-			
-			for(int j=2; j<(num/2)+1; j++) {
-				if(num%j == 0) {
-					b = false;
-					break;
-				}
-			}
-			
-			if(b) {
-				count++;
-			}
+		int x;
+		int y;
+ 
+		if (coord_1[0] == coord_2[0]) {
+			x = coord_3[0];
+		}
+		else if (coord_1[0] == coord_3[0]) {
+			x = coord_2[0];
+		}
+		else {
+			x = coord_1[0];
+		}
+ 
+		if (coord_1[1] == coord_2[1]) {
+			y = coord_3[1];
+		}
+		else if (coord_1[1] == coord_3[1]) {
+			y = coord_2[1];
+		}
+		else {
+			y = coord_1[1];
 		}
 		
-		System.out.println(count);
+		System.out.println(x + " " + y);
 	}
+ 
 }

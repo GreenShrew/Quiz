@@ -3,33 +3,32 @@ import java.io.InputStreamReader;
 import java.io.IOException;
  
 public class Main {
- 
-	static long[] seq = new long[101];
 	
+	public static Long[] seq = new Long[101];
+ 
 	public static void main(String[] args) throws IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
 		
-		padovan();
+		seq[0] = 0L;
+		seq[1] = 1L;
+		seq[2] = 1L;
+		seq[3] = 1L;
 		
 		int T = Integer.parseInt(br.readLine());
 		
-		for (int i = 0; i < T; i++) {
-			sb.append(seq[Integer.parseInt(br.readLine())]).append('\n');
+		while(T-->0) {
+			sb.append(padovan(Integer.parseInt(br.readLine()))).append('\n');
 		}
-		
 		System.out.println(sb);
 	}
- 
-	public static void padovan() {
-		
-		seq[1] = 1;
-		seq[2] = 1;
-		seq[3] = 1;
- 
-		for (int i = 4; i < 101; i++) {
-			seq[i] = seq[i - 2] + seq[i - 3];
+	
+	public static long padovan(int N) {
+		if(seq[N] == null) {
+			seq[N] = padovan(N - 2) + padovan(N - 3);
 		}
+		return seq[N];
 	}
  
 }
